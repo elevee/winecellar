@@ -4,7 +4,7 @@ var Wine = Backbone.Model.extend({
 		grapes: 'Pinot Noir',
 		country: 'USA',
 		region: 'Oregon',
-		year: 2013
+		year: 2007
 	},
 
 	validate: function(object){
