@@ -1,13 +1,13 @@
-WineView = Backbone.View.extend({
+var WineView = Backbone.View.extend({
 	tagName: 'li',
 
-	template: _.template("<%= name %> (<%= year %>) <%= region %>, <%= country %>"),
+	template: _.template( $('#wineTemplate').html() ),
 
 	initialize: function(){
-		console.log(this.model);
+		this.render();
 	},
 
 	render: function(){
-		this.$el.html(this.template(this.model.toJSON()) );
+		this.$el.html( this.template(this.model.toJSON()) );
 	}
 });
