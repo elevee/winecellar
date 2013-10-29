@@ -1,5 +1,9 @@
 var Wine = Backbone.Model.extend({
 	defaults: {
+		name: 'Domaine Serene',
+		grapes: 'Pinot Noir',
+		country: 'USA',
+		region: 'Oregon',
 		year: 2013
 	},
 
