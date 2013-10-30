@@ -1,3 +1,9 @@
+//Template helper
+var template = function(id){
+	return _.template( $('#' + id).html() );
+}
+
+
 var Wine = Backbone.Model.extend({
 	defaults: {
 		name: 'Domaine Serene',

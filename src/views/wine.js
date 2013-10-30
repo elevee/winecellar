@@ -23,7 +23,7 @@ var WinesView = Backbone.View.extend({
 var WineView = Backbone.View.extend({
 	tagName: 'li',
 
-	template: _.template( $('#wineTemplate').html() ),
+	template: template('wineTemplate'),
 
 	initialize: function(){
 		this.render();
