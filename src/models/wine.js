@@ -27,8 +27,3 @@ var Wine = Backbone.Model.extend({
 	}
 	
 });
-
-// this.name = 
-// this.grapes = 
-// this.country =
-// this.region = 

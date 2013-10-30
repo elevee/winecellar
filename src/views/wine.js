@@ -25,10 +25,6 @@ var WineView = Backbone.View.extend({
 
 	template: template('wineTemplate'),
 
-	initialize: function(){
-		this.render();
-	},
-
 	render: function(){
 		this.$el.html( this.template(this.model.toJSON()) );
 		return this; //so we can chain
