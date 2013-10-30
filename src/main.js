@@ -8,4 +8,3 @@ var wineView = new WineView({ model: wine });
 var winesCollection = new WinesCollection();
 winesCollection.add(wine);
 
-console.log(winesCollection);
